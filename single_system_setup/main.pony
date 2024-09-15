@@ -14,7 +14,7 @@ actor Worker
     coordinator.worker_created(start, end')
 
   be calculate_sum() =>
-    coordinator.worker_started(start_value)
+    //coordinator.worker_started(start_value)
     var i: U64 = start_value
     var isFirstTime = true
     var sum: U64 = 0
@@ -28,7 +28,7 @@ actor Worker
           isFirstTime=false
       else
           sum=sum-((i-1)*(i-1))
-          sum =sum+((i+k)*(i+k))
+          sum =sum+((i+(k-1))*(i+(k-1)))
       end
       let root = int_sqrt(sum)
       if (root * root) == sum then

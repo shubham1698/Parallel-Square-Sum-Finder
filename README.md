@@ -171,11 +171,11 @@ The client connects to the server, receives a computational task, performs the c
 
    - Compile and run the server by passing the required arguments to the `Main` actor in `net.pony`:
 
-     ```bash
+   ```bash
 
-     ./server <n> <k> <ip> <port> <max_client_num>
+./server <n> <k> <ip> <port> <max_client_num>
 
-     ```
+```
 
      - `<n>`: The upper limit of the range to search for perfect squares.
 
@@ -191,11 +191,12 @@ The client connects to the server, receives a computational task, performs the c
 
    - Compile and run the client by invoking the `ClientSide` class:
 
-     ```bash
 
-     ./client <server_ip> <server_port>
+  ```bash
 
-     ```
+./client <server_ip> <server_port>
+
+```
 
      - `<server_ip>`: The IP address of the server to connect to.
 
@@ -205,29 +206,31 @@ The client connects to the server, receives a computational task, performs the c
 
 1\. **Server**:
 
-   ```bash
+ ```bash
 
-   ./server 100 4 127.0.0.1 8080 2
+./server 100 4 127.0.0.1 8080 2
 
-   ```
+```
 
    This starts the server to distribute a task to find perfect squares that are sums of four consecutive squares in the range from 1 to 100, listening on `127.0.0.1:8080`, and expecting two clients to connect.
 
 2\. **Client 1**:
 
-   ```bash
+ ```bash
 
-   ./client 127.0.0.1 8080
+./client 127.0.0.1 8080
 
-   ```
+```
+
 
 3\. **Client 2**:
 
-   ```bash
+ ```bash
 
-   ./client 127.0.0.1 8080
+./client 127.0.0.1 8080
 
-   ```
+```
+
 
 Once both clients are connected, the server will distribute the tasks, and the clients will process them and send back their results.
 

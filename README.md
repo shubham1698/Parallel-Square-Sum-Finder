@@ -76,6 +76,12 @@ for single machines:
 
 ![single machine.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/single%20machine.jpeg?raw=true)
 
+#### largest values
+
+![largestval2.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/largestval2.jpeg?raw=true)
+
+![largestval.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/largestval.jpeg?raw=true)
+
 
 for multiple machines:
 

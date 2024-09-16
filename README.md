@@ -5,13 +5,6 @@ This project implements a parallelized algorithm for finding perfect squares tha
 ## Work Unit Size
 
 we are dividing the problem by worker size which we have predefined and kept it as 8.
-
-Where:
-
-- `n` is the total number of sub-problems to solve.
-
-- `max_concurrent_workers` is the maximum number of workers (set to 8 in our implementation).
-
 We chose this work unit size because it balances the workload across the available workers and minimizes idle time. Larger work unit sizes lead to fewer task switches, reducing the overhead, while smaller sizes allow for better load balancing across cores.
 
 ### Performance Consideration:

@@ -51,12 +51,15 @@ This was done in **0.069 seconds**, demonstrating efficient parallelization. Lar
 
 To run the program, use the following format:
 
+for single machines:
+
 ```for single machines
 
 <filename> <n> <k>
 
 ```
 
+for multiple machines:
 
 ```for multiple machines
 

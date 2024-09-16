@@ -1,6 +1,4 @@
-# dosp-project1
-
-# Lukas Algorithm
+# dosp-project-1
 
 This project implements a parallelized algorithm for finding perfect squares that are sums of consecutive squares using the actor model.
 
@@ -32,7 +30,7 @@ In our tests, this size allowed all cores to be used efficiently without overloa
 
 - **Total results found**: 0
 
-- **Time taken **:  
+- **Time Taken**:  
 
   - **User time**: 0.29 seconds  
 
@@ -68,7 +66,7 @@ To run the program, use the following format:
 
 ```bash
 
-./lukas <n> <k>
+./lukas <n> <k> <ip> <port> <max_client_num>
 
 ```
 

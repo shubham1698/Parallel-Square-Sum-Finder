@@ -4,13 +4,7 @@ This project implements a parallelized algorithm for finding perfect squares tha
 
 ## Work Unit Size
 
-The work unit size refers to the number of sub-problems that a worker processes in one request from the coordinator (boss). Based on our tests, the optimal work unit size for best performance is determined by the following formula:
-
-```plaintext
-
-work_unit_size = (n / max_concurrent_workers).max(1)
-
-```
+we are dividing the problem by worker size which we have predefined and kept it as 8.
 
 Where:
 
@@ -24,7 +18,7 @@ We chose this work unit size because it balances the workload across the availab
 
 In our tests, this size allowed all cores to be used efficiently without overloading any single worker or leaving too many idle. Adjustments were made based on CPU usage analysis and trial runs with different values of `n` and `k`.
 
-## Results for `lukas 1000000 4`
+## Results for `n=1000000 k=4`
 
 - **Number of workers created**: 8 workers
 

@@ -58,6 +58,24 @@ for single machines:
 <filename> <n> <k>
 
 ```
+### following are the screenshots for different number of workers:
+
+#### 4 worker
+
+![4 workers.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/4%20workers.jpeg?raw=true)
+
+#### 8 worker
+
+![8 workers.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/8%20workers.jpeg?raw=true)
+
+#### 16 worker
+
+![16 workers.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/16%20workers.jpeg?raw=true)
+
+#### single machine on a different computer
+
+![single machine.jpeg](https://github.com/shubham1698/dosp-project1/blob/main/single%20machine.jpeg?raw=true)
+
 
 for multiple machines:
 

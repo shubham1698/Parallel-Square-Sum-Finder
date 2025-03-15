@@ -1,4 +1,4 @@
-#Parallel-Square-Sum-Finder
+# Parallel-Square-Sum-Finder
 
 This project implements a parallelized algorithm for finding perfect squares that are sums of consecutive squares using the actor model.
 
